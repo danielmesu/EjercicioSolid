@@ -21,4 +21,4 @@
     - La clase EmployeeOperations define métodos que no necesariamente aplican para las operaciones con empleador. EmployeeOperations y saveToFile son operaciones que pueden definirse en otro tipo de objeto.
     
 - **Dependency inversion**
-    La clase ReportGenerator es una dependencia que no está abstraída. Si se definieran múltiples generadores de reportes para múltiples formatos, se tendría que generar la instancia del objeto explícito en lugar de depender de su abstracción. 
+    - La clase ReportGenerator es una dependencia que no está abstraída. Si se definieran múltiples generadores de reportes para múltiples formatos, se tendría que generar la instancia del objeto explícito en lugar de depender de su abstracción. 
